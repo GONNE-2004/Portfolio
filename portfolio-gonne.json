@@ -1,33 +1,28 @@
 {
-  "name": "Corey Schafer",
+  "name": "GONNE ERNESTO",
   "label": "Software Engineer",
   "image_path": "portfolio_media/profile.jpg",
   "contact": {
-    "email": "CoreyMSchafer@gmail.com",
-    "phone": "",
-    "location": "Charleston, WV"
+    "email": "gonne411@gmail.com",
+    "phone": "+250794417282",
+    "location": "Rwanda, Kigali"
   },
-  "summary": "Programming educator on YouTube. Simplifying complex concepts into manageable steps to help learners digest material at their own pace.",
+  "summary": "Programming educator on YouTube. Creating series of projects to help learners understand programming concepts and solidify their understanding.",
   "url": "https://coreyms.com",
   "social_links": [
     {
-      "label": "Coreyms.com",
-      "url": "https://coreyms.com",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gonne-ernesto-b78462322/",
       "svg_path": "img/globe.svg"
     },
     {
       "label": "YouTube",
-      "url": "https://youtube.com/c/coreyms",
+      "url": "https://www.youtube.com/@valhalla100BC",
       "svg_path": "img/youtube.svg"
     },
     {
-      "label": "Instagram",
-      "url": "https://www.instagram.com/coreymschafer",
-      "svg_path": "img/instagram.svg"
-    },
-    {
       "label": "Github",
-      "url": "https://github.com/CoreyMSchafer",
+      "url": "https://github.com/GONNE-2004",
       "svg_path": "img/github.svg"
     }
   ],
@@ -116,33 +111,26 @@
   ],
   "education": [
     {
-      "institution": "Marshall University",
-      "location": "Hungington, WV, USA",
-      "url": "https://marshall.edu",
+      "institution": "Kigali Independent University",
+      "location": "Rwanda, Kigali",
+      "url": "https://kigaliindependentuniversity.edu",
       "degrees": [
-        "Bachelor of Science in Computer Science",
-        "Minor in Mathematics"
+        "Bachelor of Computer Science in Software Engineering"
       ],
-      "honors": [
-        "2010 Outstanding Student Award",
-        "2005 R.L. “Buck” Woodall Student-Athlete scholarship",
-        "Placed in a District ACM ICPC Team Programming Contest"
-      ],
-      "gpa_cumulative": "3.29",
-      "gpa_major": "3.93",
-      "graduation_date": "2010"
+      "current class": "3rd Year",
+      "graduation_date": "till-Dec-2027"
     }
   ],
   "skills": [
     {
       "name": "Python, Flask, Django",
-      "proficiency": 100,
-      "proficiency_label": "Expert"
+      "proficiency": 70,
+      "proficiency_label": "Intermediate"
     },
     {
       "name": "System Administration, Linux",
-      "proficiency": 90,
-      "proficiency_label": "Advanced"
+      "proficiency": 40,
+      "proficiency_label": "Beginner"
     },
     {
       "name": "JavaScript, HTML, CSS",
@@ -152,7 +140,7 @@
   ],
   "interests": [
     {
-      "name": "Woodworking",
+      "name": "Novel Reading",
       "summary": "",
       "images": [
         {
