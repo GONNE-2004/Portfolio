@@ -1,0 +1,130 @@
+{
+  "name": "GONNE ERNESTO",
+  "label": "Software Engineer",
+  "image_path": "portfolio_media/profile.jpg",
+  "contact": {
+    "email": "gonne411@gmail.com",
+    "phone": "+250794417282",
+    "location": "Rwanda, Kigali"
+  },
+  "summary": "Backend-focused software engineer and programming educator building project-based learning systems to solidify core programming and system design fundamentals.",
+  "social_links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gonne-ernesto-b78462322/",
+      "svg_path": "img/globe.svg"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@valhalla100BC",
+      "svg_path": "img/youtube.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/GONNE-2004",
+      "svg_path": "img/github.svg"
+    }
+  ],
+
+  "current_learning": {
+    "python": {
+      "status": "intermediate",
+      "focus": [
+        "OOP reinforcement (Boot.dev + Corey Schafer)",
+        "Project structuring (single file → modular architecture)",
+        "Data persistence (JSON → CSV → Database)"
+      ]
+    },
+    "sql": {
+      "status": "beginner → early intermediate",
+      "source": "CS50 SQL",
+      "focus": [
+        "SELECT, WHERE, ORDER BY",
+        "Logical conditions (AND, OR, NOT)",
+        "Aggregation (COUNT, AVG)",
+        "Query correctness and structuring"
+      ]
+    }
+  },
+
+  "projects": [
+    {
+      "title": "MediaCatalogue",
+      "summary": "A terminal-based media management system built using OOP principles. Implements validation, inheritance (Movie/TVSeries), and structured display logic.",
+      "status": "completed (single-file version)",
+      "next_steps": [
+        "Refactor into multi-module architecture",
+        "Add CSV persistence",
+        "Integrate database layer"
+      ]
+    },
+    {
+      "title": "Python Terminal Projects Series",
+      "summary": "A YouTube series focused on building terminal-based projects to solidify programming fundamentals and system thinking.",
+      "url": ""
+    }
+  ],
+
+  "planned_fundamentals_track": [
+    "CLI To-Do App (JSON persistence)",
+    "Contact Book (CSV import/export)",
+    "Expense Tracker (reports and aggregation)",
+    "Log File Analyzer (file parsing and analysis)",
+    "Mini Text Adventure (state machine architecture)",
+    "Inventory Manager (OOP + persistence)",
+    "CLI Utilities Pack (multi-tool system)",
+    "Final integrative project (scalable system)"
+  ],
+
+  "content_creation": {
+    "platform": "YouTube",
+    "focus": "Project-based programming education",
+    "current_task": "Record MediaCatalogue project",
+    "strategy": [
+      "Explain why the project exists",
+      "Break down system design and logic",
+      "Implement step-by-step",
+      "Show improvements and scaling path"
+    ]
+  },
+
+  "knowledge_you_already_have": {
+    "python": [
+      "Core syntax and control flow",
+      "Functions and modular thinking",
+      "Lists and dictionaries",
+      "Object-Oriented Programming (classes, inheritance)",
+      "Basic file handling"
+    ],
+    "sql": [
+      "Basic querying (SELECT)",
+      "Filtering and conditions",
+      "Sorting results",
+      "Basic aggregation"
+    ],
+    "foundations": [
+      "Problem decomposition",
+      "Pseudocode design",
+      "System modeling (entities, rules)",
+      "Debugging and iteration"
+    ]
+  },
+
+  "next_learning_steps": [
+    "Record and publish MediaCatalogue project",
+    "Refactor MediaCatalogue into structured modules",
+    "Implement CSV persistence",
+    "Complete first 3 CS50 SQL lessons with problem sets",
+    "Review key OOP concepts (targeted)",
+    "Start 8-project fundamentals track",
+    "Progress to database integration in projects"
+  ],
+
+  "tools": [
+    "Git & GitHub",
+    "OBS",
+    "SQLite",
+    "VS Code",
+    "Command Line"
+  ]
+}
