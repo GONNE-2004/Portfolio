@@ -60,10 +60,10 @@
         <div class="header-top flex-responsive">
           {% if image_path %}
             <img class="header-image"
-                 width="256"
-                 height="256"
-                 src="{{ image_path }}"
-                 alt="{{ name }} Profile Image" />
+                width="256"
+                height="256"
+                src="{{ image_path }}"
+                alt="{{ name }} Profile Image" />
           {% endif %}
           <div class="header-info">
             <h1>{{ name }}</h1>
@@ -90,9 +90,9 @@
                 {% for link in social_links %}
                   <li>
                     <a href="{{ link.url }}"
-                       rel="noopener noreferrer"
-                       aria-label="{{ link.label }}"
-                       class="link-with-icon">
+                      rel="noopener noreferrer"
+                      aria-label="{{ link.label }}"
+                      class="link-with-icon">
                       {% if link.svg_data %}{{ link.svg_data | safe }}{% endif %}
                       {{ link.label }}
                     </a>
@@ -158,9 +158,9 @@
                       {% for img in project.images %}
                         <figure>
                           <img width="600"
-                               height="338"
-                               src="{{ img.img_path }}"
-                               alt="{{ img.caption }}">
+                              height="338"
+                              src="{{ img.img_path }}"
+                              alt="{{ img.caption }}">
                           <figcaption>{{ img.caption }}</figcaption>
                         </figure>
                       {% endfor %}
@@ -257,34 +257,41 @@
           {% if skills %}
             <section>
               <h2 class="section-heading">Skills</h2>
-              <ul class="unstyled-list">
-                {% for skill in skills %}
-                  <li>
-                    <h3>{{ skill.name }}</h3>
-                    <div class="skill-bar">
-                      <div class="skill-bar-fill w-{{ skill.proficiency }}"
-                           role="meter"
-                           aria-valuenow="{{ skill.proficiency }}"
-                           aria-valuemin="0"
-                           aria-valuemax="100">
-                        <span class="skill-bar-label">{{ skill.proficiency_label }}</span>
-                      </div>
-                    </div>
-                  </li>
-                {% endfor %}
-              </ul>
+              <table class="skill-table">
+                <tbody>
+                  {% for skill in skills %}
+                    <tr>
+                      <td>{{ skill.name }}</td>
+                      <td class="proficiency">{{ skill.proficiency }}%</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
             </section>
           {% endif %}
 
           {% if languages %}
             <section>
               <h2 class="section-heading">Languages</h2>
+              <table class="skill-table">
+                <tbody>
+                  {% for lang in languages %}
+                    <tr>
+                      <td>{{ lang.language }}</td>
+                      <td class="proficiency">{{ lang.proficiency }}%</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </section>
+          {% endif %}
+
+          {% if tools %}
+            <section>
+              <h2 class="section-heading">Tools</h2>
               <ul class="unstyled-list">
-                {% for lang in languages %}
-                  <li>
-                    <h3>{{ lang.language }}</h3>
-                    <p class="section-label">{{ lang.fluency }}</p>
-                  </li>
+                {% for t in tools %}
+                  <li>{{ t }}</li>
                 {% endfor %}
               </ul>
             </section>
@@ -302,9 +309,9 @@
                       {% for img in interest.images %}
                         <figure>
                           <img width="600"
-                               height="338"
-                               src="{{ img.img_path }}"
-                               alt="{{ img.caption }}">
+                              height="338"
+                              src="{{ img.img_path }}"
+                              alt="{{ img.caption }}">
                           <figcaption>{{ img.caption }}</figcaption>
                         </figure>
                       {% endfor %}

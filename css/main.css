@@ -271,6 +271,34 @@ aside li {
   list-style: none;
 }
 
+.unstyled-list.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+}
+
+.skill-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.skill-table tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.skill-table td {
+  padding: 0.25rem 0;
+}
+
+.skill-table td.proficiency {
+  text-align: right;
+  font-weight: 500;
+}
+
 .inline-list {
   list-style: none;
   gap: 0.25rem;

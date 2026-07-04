@@ -9,6 +9,7 @@
   },
   "summary": "Programming educator on YouTube. Creating series of projects to help learners understand programming concepts and solidify their understanding.",
   "url": "https://coreyms.com",
+  "base_url": "127.0.0.1:5500",
   "social_links": [
     {
       "label": "LinkedIn",

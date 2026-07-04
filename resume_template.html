@@ -142,12 +142,25 @@
           {% if languages %}
             <section>
               <h2 class="section-heading">Languages</h2>
+              <table class="skill-table">
+                <tbody>
+                  {% for lang in languages %}
+                    <tr>
+                      <td>{{ lang.language }}</td>
+                      <td class="proficiency">{{ lang.proficiency }}%</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </section>
+          {% endif %}
+
+          {% if tools %}
+            <section>
+              <h2 class="section-heading">Tools</h2>
               <ul class="unstyled-list">
-                {% for lang in languages %}
-                  <li>
-                    <h3>{{ lang.language }}</h3>
-                    <p class="section-label">{{ lang.fluency }}</p>
-                  </li>
+                {% for t in tools %}
+                  <li>{{ t }}</li>
                 {% endfor %}
               </ul>
             </section>
